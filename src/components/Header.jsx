@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,20 +11,29 @@ const Header = () => {
 
   return (
     <nav className="sticky top-0 left-0 flex flex-row justify-between py-5 items-center bg-white z-100">
-      <div className="flex flex-row gap-5 items-center">
-        <img src="logo.svg" width={70} alt="Logo" />
-        <span className="text-[26px] text-[#133B7A]">Ebel Vladimir</span>
-      </div>
+      <Link
+        onClick={() => scrollTo(0, 0)}
+        className="flex flex-row gap-5 items-center cursor-pointer transition hover:scale-110"
+      >
+        <img src="logo.svg" width={60} alt="Logo" />
+        <span className="text-[24px] text-[#133B7A]">Ebel Vladimir</span>
+      </Link>
       <div className="hidden sm:flex flex-row gap-5 items-center">
-        <AnchorLink href="#ourServices" className="text-[#133B7A] text-[26px]">
+        <AnchorLink
+          href="#ourServices"
+          className="text-[#133B7A] text-[24px] transition-all hover:font-bold"
+        >
           Услуги
         </AnchorLink>
-        <AnchorLink href="#cases" className="text-[#133B7A] text-[26px]">
+        <AnchorLink
+          href="#cases"
+          className="text-[#133B7A] text-[24px] transition-all hover:font-bold"
+        >
           Кейсы
         </AnchorLink>
         <AnchorLink
           href="#connectWithUs"
-          className="text-[#133B7A] text-[26px]"
+          className="text-[#133B7A] text-[24px] transition-all hover:font-bold"
         >
           Контакты
         </AnchorLink>

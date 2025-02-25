@@ -1,3 +1,3 @@
 import cases from './cases'
-
-export const schemaTypes = [cases]
+import services from './services'
+export const schemaTypes = [cases, services]

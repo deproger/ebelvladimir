@@ -28,7 +28,7 @@ const Form = () => {
     console.log("Form submitted:", formData);
 
     // Construct the message to be sent to Telegram
-    const message = `Новая заявка:\nИмя: ${formData.name}\nНомер телефона: ${formData.phonenumber}\nУдобное время: ${formData.phonenumber} \nКомментарий: ${formData.comment}`;
+    const message = `Новая заявка:\nИмя: ${formData.name}\nНомер телефона: ${formData.phonenumber}\nУдобное время: ${formData.time} \nКомментарий: ${formData.comment}`;
     const encodedMessage = encodeURIComponent(message);
     const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodedMessage}`;
 
@@ -76,14 +76,14 @@ const Form = () => {
                 placeholder="ВАШЕ ИМЯ"
                 value={formData.name}
                 onChange={handleChange}
-                className=" rounded-full bg-white text-[#133B7A] uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
+                className=" rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
                 required
               />
               <select
                 name="time"
                 value={formData.time}
                 onChange={handleChange}
-                className={`rounded-full bg-white text-[#133B7A] uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg  appearance-none ${
+                className={`rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg  appearance-none ${
                   formData.time === "" ? "text-[#899DBC]" : "text-[#133B7A]"
                 }`}
                 required
@@ -108,7 +108,7 @@ const Form = () => {
                 placeholder="НОМЕР ТЕЛЕФОНА"
                 value={formData.phonenumber}
                 onChange={handleChange}
-                className=" rounded-full bg-white text-[#133B7A] uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
+                className=" rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
                 required
               />
             </div>
@@ -119,9 +119,9 @@ const Form = () => {
                 placeholder="КОММЕНТАРИЙ / ПОЖЕЛАНИЕ"
                 value={formData.comment}
                 onChange={handleChange}
-                className="sm:w-100 w-full rounded-full bg-white text-[#133B7A] uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
+                className="sm:w-100 w-full rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
               />
-              <button className="rounded-full bg-[#133B7A] text-white uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg ">
+              <button className="rounded-full transition hover:scale-105 bg-[#133B7A] text-white uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg ">
                 отправить
               </button>
             </div>

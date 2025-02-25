@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 const MainBanner = () => {
   return (
@@ -42,13 +40,13 @@ const MainBanner = () => {
           />
           <AnchorLink
             href="#connectWithUs"
-            className="rounded-full bg-[#133B7A] text-white uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-2xl"
+            className="rounded-full hover:scale-105 transition bg-[#133B7A] text-white uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-2xl"
           >
             Связаться с нами
           </AnchorLink>
           <AnchorLink
             href="#ourServices"
-            className="rounded-full bg-white text-[#133B7A] uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-2xl"
+            className="rounded-full hover:scale-105 transition bg-white text-[#133B7A] uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-2xl"
           >
             Наши услуги
           </AnchorLink>
