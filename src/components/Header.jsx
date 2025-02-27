@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header className="bg-white w-full  sticky top-0 left-0 z-100">
-      <nav className="max-w-[1200px] mx-auto flex flex-row justify-between py-5 items-center bg-white">
+      <nav className="p-5 max-w-[1200px] mx-auto flex flex-row justify-between py-5 items-center bg-white">
         <Link
           onClick={() => scrollTo(0, 0)}
           className="flex flex-row gap-5 items-center cursor-pointer transition hover:scale-110"

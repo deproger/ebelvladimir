@@ -22,7 +22,7 @@ const MainBanner = () => {
           </div>
         </div>
 
-        <div className="absolute sm:left-10 lg:bottom-20 lg:mt-0 sm:mt-10 mt-2 left-2 rounded-tr-[40px] rounded-br-[40px] rounded-bl-[40px] rounded-tl-0 max-w-[350px] bg-[#ffffff] p-4">
+        <div className="sm:absolute sm:left-10 lg:bottom-20 lg:mt-0 sm:mt-10 mt-2 left-1 rounded-tr-[40px] rounded-br-[40px] rounded-bl-[40px] rounded-tl-0 max-w-[350px] bg-[#ffffff] p-4">
           <p className="text-[#133B7A] font-semibold text-[20px]">
             <span className="text-[#133B7A] uppercase font-bold">
               БОЛЕЕ 5 ЛЕТ
@@ -32,7 +32,7 @@ const MainBanner = () => {
           </p>
         </div>
 
-        <div className="absolute right-0 bottom-0 flex flex-row bg-white rounded-tl-[40px] gap-5 py-3 px-5">
+        <div className="absolute right-0 bottom-0 flex flex-row bg-white rounded-b-[40px] rounded-tl-[40px] sm:rounded-b-0 gap-3 w-auto m-2 sm:w-fit sm:gap-5 py-3 px-2 sm:px-5">
           <img
             src="statue.png"
             alt="Статуя"
@@ -40,13 +40,13 @@ const MainBanner = () => {
           />
           <AnchorLink
             href="#connectWithUs"
-            className="rounded-full hover:scale-105 transition bg-[#133B7A] text-white uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-2xl"
+            className="rounded-full hover:scale-105 transition bg-[#133B7A] text-white uppercase font-semibold py-2 sm:py-4 px-3 sm:px-6 border-2 border-[#133B7A] text-md sm:text-2xl"
           >
             Связаться с нами
           </AnchorLink>
           <AnchorLink
             href="#ourServices"
-            className="rounded-full hover:scale-105 transition bg-white text-[#133B7A] uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-2xl"
+            className="rounded-full hover:scale-105 transition bg-white text-[#133B7A] uppercase font-semibold py-2 sm:py-4 px-3 sm:px-6 border-2 border-[#133B7A] text-md sm:text-2xl"
           >
             Наши услуги
           </AnchorLink>
