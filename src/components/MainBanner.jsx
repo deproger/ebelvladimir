@@ -32,7 +32,7 @@ const MainBanner = () => {
           </p>
         </div>
 
-        <div className="absolute right-0 bottom-0 flex flex-row bg-white rounded-b-[40px] rounded-tl-[40px] sm:rounded-b-0 gap-3 w-auto m-2 sm:w-fit sm:gap-5 py-3 px-2 sm:px-5">
+        <div className="absolute right-0 bottom-0 flex flex-row bg-white rounded-b-[40px] rounded-tl-[40px] sm:rounded-b-[0px] gap-3 w-auto m-2 sm:m-0 sm:w-fit sm:gap-5 py-3 px-2 sm:px-5">
           <img
             src="statue.png"
             alt="Статуя"
