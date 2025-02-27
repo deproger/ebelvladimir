@@ -44,7 +44,7 @@ const Services = () => {
   return (
     <>
       <section id="ourServices">
-        <h2 className="uppercase text-[#133B7A] text-[32px] md:text-[40px] font-bold mb-[50px]">
+        <h2 className="uppercase text-[#133B7A] text-[40px] font-bold mb-[50px]">
           Наши услуги
         </h2>
         <div className="flex flex-col gap-5">

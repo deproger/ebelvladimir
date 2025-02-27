@@ -59,10 +59,10 @@ const Form = () => {
     <section id="connectWithUs">
       <div
         style={{ backgroundImage: "url(form.png)" }}
-        className="relative rounded-[40px] bg-cover p-10 mt-40"
+        className="relative rounded-[40px] bg-cover p-5 md:p-10 mt-40"
       >
         <div className="flex flex-col">
-          <h2 className="uppercase text-[40px] text-white font-bold">
+          <h2 className="uppercase text-[32px] md:text-[40px] text-white font-bold">
             ВСЕ ЕЩЕ В СОМНЕНИЯХ?
           </h2>
           <span className="uppercase text-[20px] text-white font-medium mt-5">
@@ -126,7 +126,7 @@ const Form = () => {
               </button>
             </div>
           </form>
-          <h2 className="uppercase text-[35px] text-white font-bold mt-10 max-w-[60%]">
+          <h2 className="uppercase text-[28px] md:text-[35px] text-white font-bold mt-10 md:max-w-[60%]">
             МЫ СВЯЖЕМСЯ С ВАМИ И ПОДБЕРЕМ ЛУЧШЕЕ РЕШЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА!
           </h2>
         </div>
