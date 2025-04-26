@@ -76,15 +76,15 @@ const Form = () => {
                 placeholder="ВАШЕ ИМЯ"
                 value={formData.name}
                 onChange={handleChange}
-                className=" rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
+                className=" rounded-full bg-white text-[#415991] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#415991] text-lg "
                 required
               />
               <select
                 name="time"
                 value={formData.time}
                 onChange={handleChange}
-                className={`rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg  appearance-none ${
-                  formData.time === "" ? "text-[#899DBC]" : "text-[#133B7A]"
+                className={`rounded-full bg-white text-[#415991] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#415991] text-lg  appearance-none ${
+                  formData.time === "" ? "text-[#899DBC]" : "text-[#415991]"
                 }`}
                 required
               >
@@ -108,7 +108,7 @@ const Form = () => {
                 placeholder="НОМЕР ТЕЛЕФОНА"
                 value={formData.phonenumber}
                 onChange={handleChange}
-                className=" rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
+                className=" rounded-full bg-white text-[#415991] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#415991] text-lg "
                 required
               />
             </div>
@@ -119,9 +119,9 @@ const Form = () => {
                 placeholder="КОММЕНТАРИЙ / ПОЖЕЛАНИЕ"
                 value={formData.comment}
                 onChange={handleChange}
-                className="sm:w-100 w-full rounded-full bg-white text-[#133B7A] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg "
+                className="sm:w-100 w-full rounded-full bg-white text-[#415991] transition hover:scale-105 uppercase font-semibold py-4 px-6 border-2 border-[#415991] text-lg "
               />
-              <button className="rounded-full transition hover:scale-105 bg-[#133B7A] text-white uppercase font-semibold py-4 px-6 border-2 border-[#133B7A] text-lg ">
+              <button className="rounded-full transition hover:scale-105 bg-[#415991] text-white uppercase font-semibold py-4 px-6 border-2 border-[#415991] text-lg ">
                 отправить
               </button>
             </div>

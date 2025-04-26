@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Loading from "./components/Loading";
-
+import LeadsGen from "./pages/LeadsGen";
 const App = () => {
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
@@ -20,10 +20,10 @@ const App = () => {
           <Loading />
         ) : (
           <>
-            <Header />
             <Wrapper>
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/leadsgen" element={<LeadsGen />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </Wrapper>

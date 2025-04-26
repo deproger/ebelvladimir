@@ -1,13 +1,13 @@
 const WhyWe = () => {
   return (
     <>
-      <h2 className="uppercase text-[#133B7A] text-[40px] font-bold mb-[50px]">
+      <h2 className="uppercase text-[#415991] text-[40px] font-bold mb-[50px]">
         ПОЧЕМУ СТОИТ ВЫБРАТЬ НАС?
       </h2>
       <div className="flex flex-col gap-5">
         <div className="flex flex-row gap-10 w-full justify-between lg:flex-nowrap flex-wrap">
           <div className="p-5 border-4 border-[#C61F38] rounded-[40px] xl:max-w-[435px] w-full hover:scale-110 transition">
-            <p className="text-[#133B7A] text-[20px] font-bold">
+            <p className="text-[#415991] text-[20px] font-bold">
               <span className="text-[#C61F38]">Качество и надежность</span>:
               Наша команда состоит из опытных специалистов, которые гарантируют
               высокое качество работы и стабильность ваших веб-решений.
@@ -19,7 +19,7 @@ const WhyWe = () => {
           </div>
 
           <div className="p-5 border-4 border-[#C61F38] rounded-[40px] xl:max-w-[435px] w-full hover:scale-110 transition">
-            <p className="text-[#133B7A] text-[20px] font-bold">
+            <p className="text-[#415991] text-[20px] font-bold">
               <span className="text-[#C61F38]">Прозрачность и честность</span>:
               Мы придерживаемся принципов открытости в работе. Все этапы
               разработки обсуждаются с клиентом, а стоимость услуг всегда
@@ -33,7 +33,7 @@ const WhyWe = () => {
           </div>
 
           <div className="p-5 border-4 border-[#C61F38] rounded-[40px] xl:max-w-[800px] w-full hover:scale-105 transition">
-            <p className="text-[#133B7A] text-[20px] font-bold">
+            <p className="text-[#415991] text-[20px] font-bold">
               <span className="text-[#C61F38]">Современные технологии</span>: Мы
               используем последние технологии и инструменты разработки, чтобы
               обеспечить Вам высокопроизводительный сайт, который будет

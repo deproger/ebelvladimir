@@ -11,30 +11,30 @@ const Header = () => {
 
   return (
     <header className="bg-white w-full  sticky top-0 left-0 z-100">
-      <nav className="p-5 max-w-[1200px] mx-auto flex flex-row justify-between py-5 items-center bg-white">
+      <nav className="p-5 max-w-[1400px] mx-auto flex flex-row justify-between sm:py-5 py-3 items-center bg-white">
         <Link
           onClick={() => scrollTo(0, 0)}
           className="flex flex-row gap-5 items-center cursor-pointer transition hover:scale-110"
         >
-          <img src="logo.svg" width={60} alt="Logo" />
-          <span className="text-[24px] text-[#133B7A]">Ebel Vladimir</span>
+          <img src="logo.svg" className="sm:w-[60px] w-[50px]" alt="Logo" />
+          <span className="sm:text-[24px] text-[22px] text-[#415991]">Ebel Vladimir</span>
         </Link>
         <div className="hidden sm:flex flex-row gap-5 items-center">
           <AnchorLink
             href="#ourServices"
-            className="text-[#133B7A] text-[24px] transition-all hover:font-bold"
+            className="text-[#415991] text-[24px] transition-all hover:font-bold"
           >
             Услуги
           </AnchorLink>
           <AnchorLink
             href="#cases"
-            className="text-[#133B7A] text-[24px] transition-all hover:font-bold"
+            className="text-[#415991] text-[24px] transition-all hover:font-bold"
           >
             Кейсы
           </AnchorLink>
           <AnchorLink
             href="#connectWithUs"
-            className="text-[#133B7A] text-[24px] transition-all hover:font-bold"
+            className="text-[#415991] text-[24px] transition-all hover:font-bold"
           >
             Контакты
           </AnchorLink>
@@ -53,17 +53,17 @@ const Header = () => {
               }`}
             >
               <div
-                className={`w-8 h-1 bg-[#133B7A] mb-1 transition-all duration-300 ${
+                className={`w-8 h-1 bg-[#415991] mb-1 transition-all duration-300 ${
                   isMenuOpen ? "transform rotate-45 translate-y-2" : ""
                 }`}
               ></div>
               <div
-                className={`w-8 h-1 bg-[#133B7A] mb-1 transition-all duration-300 ${
+                className={`w-8 h-1 bg-[#415991] mb-1 transition-all duration-300 ${
                   isMenuOpen ? "opacity-0" : ""
                 }`}
               ></div>
               <div
-                className={`w-8 h-1 bg-[#133B7A] mb-1 transition-all duration-300 ${
+                className={`w-8 h-1 bg-[#415991] mb-1 transition-all duration-300 ${
                   isMenuOpen ? "transform -rotate-45 -translate-y-2" : ""
                 }`}
               ></div>
@@ -81,21 +81,21 @@ const Header = () => {
           <AnchorLink
             href="#ourServices"
             onClick={toggleMenu}
-            className="block text-[#133B7A] text-[20px]"
+            className="block text-[#415991] text-[20px]"
           >
             Услуги
           </AnchorLink>
           <AnchorLink
             href="#cases"
             onClick={toggleMenu}
-            className="block text-[#133B7A] text-[20px]"
+            className="block text-[#415991] text-[20px]"
           >
             Кейсы
           </AnchorLink>
           <AnchorLink
             href="#connectWithUs"
             onClick={toggleMenu}
-            className="block text-[#133B7A] text-[20px]"
+            className="block text-[#415991] text-[20px]"
           >
             Контакты
           </AnchorLink>

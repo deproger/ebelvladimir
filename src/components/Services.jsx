@@ -44,7 +44,7 @@ const Services = () => {
   return (
     <>
       <section id="ourServices">
-        <h2 className="uppercase text-[#133B7A] text-[40px] font-bold mb-[50px]">
+        <h2 className="uppercase text-[#415991] text-[40px] font-bold mb-[50px]">
           Наши услуги
         </h2>
         <div className="flex flex-col gap-5">
@@ -58,7 +58,7 @@ const Services = () => {
                   key={index}
                   className="flex flex-col min-w-[266px] w-full sm:w-[calc(25%-10px)] h-[200px] border-2 border-[#C61F38] rounded-[40px] items-start p-5 justify-between transition cursor-pointer hover:scale-110"
                 >
-                  <span className="uppercase text-[#133B7A] text-[18px] md:text-[20px] font-bold">
+                  <span className="uppercase text-[#415991] text-[18px] md:text-[20px] font-bold">
                     {service.title}
                   </span>
                   <img

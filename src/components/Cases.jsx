@@ -33,7 +33,7 @@ const Cases = () => {
   return (
     <>
       <section id="cases">
-        <h2 className="uppercase text-[#133B7A] text-[40px] font-bold mb-[50px]">
+        <h2 className="uppercase text-[#415991] text-[40px] font-bold mb-[50px]">
           КЕЙСЫ
         </h2>
         <div className="flex flex-col gap-5">
