@@ -37,7 +37,7 @@ const MainBanner = () => {
           <img
             src="statue.png"
             alt="Статуя"
-            className="absolute bottom-0 sm:right-10 right-[50%] translate-x-[50%] sm:w-full w-[90%]"
+            className="absolute bottom-0 sm:right-10 right-[50%] sm:translate-x-0 translate-x-[50%] sm:w-full w-[90%] max-w-[500px]"
           />
         <div className="absolute w-100 left-0 bottom-0 flex flex-row bg-white rounded-b-[40px] sm:rounded-tr-[40px] rounded-tl-[40px] sm:rounded-b-[0px] gap-3 w-auto m-2 sm:m-0 sm:w-fit sm:gap-5 sm:pt-5 pr-5 sm:pl-0 pl-5 sm:py-0 py-3 hidden sm:block">
           
